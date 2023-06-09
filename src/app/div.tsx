@@ -8,7 +8,7 @@ type Props = {
 
   export default function Div  ({p, link} : Props)  {
   return (
-    <div className=' text-white'>
+               <div className=' text-white'>
 
             <div>
 
@@ -16,15 +16,15 @@ type Props = {
             {p} 
             </p>
 
-        <div className=" flex justify-center items-center">
-        <a href={link}
-        className="md:m-4 text-[#0366fc] text-2xl cursor-pointer hover:text-4xl 
-        hover:text-[#fc0303]">
-        <FaDownload/>
-        </a>
-        </div>
+                <div className=" flex justify-center items-center">
+                <a href={link}
+                className="md:m-4 text-[#0366fc] text-2xl cursor-pointer hover:text-4xl 
+                hover:text-[#fc0303]">
+                <FaDownload/>
+                </a>
+                </div>
 
-        </div>
-        </div>
+                </div>
+                </div>
   )
 }

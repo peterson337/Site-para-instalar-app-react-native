@@ -1,12 +1,7 @@
 import React from "react"
 import Div from "./div";
 
-type Props = {
-  p: string;
-  link: string;
-}
-
-export default function Home({p, link} : Props) {
+export default function Home() {
   return (
     <main>
       <title>web app para instalar apps do react native</title>
@@ -17,7 +12,7 @@ export default function Home({p, link} : Props) {
      </div>
 
           <Div
-       p=" App lista de tarefas: " 
+       p=" App lista de tarefas:" 
        link="https://expo.dev/artifacts/eas/kf7TVcLoXzge6kAHLVrPp7.apk" 
         />
 
