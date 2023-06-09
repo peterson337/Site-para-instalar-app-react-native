@@ -6,7 +6,7 @@ type Props = {
     link: string;
   }
 
-export const Div = ({p, link} : Props) => {
+  export default function Div  ({p, link} : Props)  {
   return (
     <div className=' text-white'>
 

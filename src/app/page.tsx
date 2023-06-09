@@ -1,5 +1,5 @@
 import React from "react"
-import {Div} from "./div";
+import Div from "./div";
 
 type Props = {
   p: string;
