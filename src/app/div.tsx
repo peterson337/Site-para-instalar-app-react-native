@@ -10,11 +10,11 @@ export const Div = ({p, link} : Props) => {
   return (
     <div className=' text-white'>
 
-<div>
+            <div>
 
-<p className='m-4 text-center text-2xl'>
-  {p} 
-</p>
+            <p className='m-4 text-center text-2xl'>
+            {p} 
+            </p>
 
         <div className=" flex justify-center items-center">
         <a href={link}
@@ -25,6 +25,6 @@ export const Div = ({p, link} : Props) => {
         </div>
 
         </div>
-    </div>
+        </div>
   )
 }

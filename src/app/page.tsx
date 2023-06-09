@@ -1,6 +1,4 @@
-import { type } from "os";
 import React from "react"
-import { FaDownload } from "react-icons/fa"
 import {Div} from "./div";
 
 type Props = {
