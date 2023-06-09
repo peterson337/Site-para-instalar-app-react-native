@@ -1,31 +1,37 @@
+import { type } from "os";
 import React from "react"
 import { FaDownload } from "react-icons/fa"
+import {Div} from "./div";
 
+type Props = {
+  p: string;
+  link: string;
+}
 
-export default function Home() {
+export default function Home({p, link} : Props) {
   return (
-    <main className=" ">
+    <main>
+      <title>web app para instalar apps do react native</title>
 
      <div className='md:p-10 p-7 bg-blue-950 text-center md:text-4xl text-3xl'> 
-      <h1>Site para instalar apps do react native</h1>
+      <h1>web app para instalar apps do react native</h1>
 
      </div>
 
-     <div>
+          <Div
+       p=" App lista de tarefas: " 
+       link="https://expo.dev/artifacts/eas/kf7TVcLoXzge6kAHLVrPp7.apk" 
+        />
 
-      <p className='m-4 text-center text-2xl'>
-        Aplicativo lista de tarefas: 
-      </p>
+      <Div
+       p="App de anotação:" 
+       link="https://expo.dev/artifacts/eas/sdhot2gPAfZXWVmzAco3nW.apk" 
+        />
 
-      <div className=" flex justify-center items-center">
-      <a href="https://expo.dev/artifacts/eas/kf7TVcLoXzge6kAHLVrPp7.apk"
-      className="md:m-4 text-[#0366fc] text-2xl cursor-pointer hover:text-4xl 
-      hover:text-[#fc0303]">
-       <FaDownload/>
-      </a>
-      </div>
 
-      </div>
+      {/* 
+      
+      */}
 
     </main>
   )

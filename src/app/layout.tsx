@@ -15,6 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>web app para instalar apps do react native</title>
       <body className={inter.className}>{children}</body>
     </html>
   )
