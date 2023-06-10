@@ -21,10 +21,10 @@ export default function Home() {
        link="https://expo.dev/artifacts/eas/sdhot2gPAfZXWVmzAco3nW.apk" 
         />
 
-
-      {/* 
-      
-      */}
+      <Div
+       p="Calculadora:" 
+       link="https://expo.dev/artifacts/eas/43MtjEAHmcs1dk9frgGeYt.apk " 
+        />
 
     </main>
   )
