@@ -26,6 +26,11 @@ export default function Home() {
        link="https://expo.dev/artifacts/eas/43MtjEAHmcs1dk9frgGeYt.apk " 
         />
 
+        <Div
+       p="Galeria de fotos:" 
+       link="https://expo.dev/artifacts/eas/bAN1RzKWzRQ1a23ytdQkDp.apk" 
+        />
+
     </main>
   )
 }
