@@ -31,6 +31,11 @@ export default function Home() {
        link="https://expo.dev/artifacts/eas/bAN1RzKWzRQ1a23ytdQkDp.apk" 
         />
 
+        <Div
+       p="App portfólio:" 
+       link="https://expo.dev/artifacts/eas/pVBrucEi3rJdd9FWPdv66T.apk" 
+        />
+
     </main>
   )
 }
