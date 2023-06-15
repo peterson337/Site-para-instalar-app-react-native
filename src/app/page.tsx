@@ -36,6 +36,12 @@ export default function Home() {
        link="https://expo.dev/artifacts/eas/pVBrucEi3rJdd9FWPdv66T.apk" 
         />
 
+      <Div
+       p="Nerd news, app de notícias para nerds:" 
+       link="https://expo.dev/artifacts/eas/ruzMdjAapAGbHEdMXMqvxW.apk" 
+        />
+
+
     </main>
   )
 }
