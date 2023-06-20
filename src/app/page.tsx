@@ -41,6 +41,11 @@ export default function Home() {
        link="https://expo.dev/artifacts/eas/ruzMdjAapAGbHEdMXMqvxW.apk" 
         />
 
+      <Div
+       p="App musica:" 
+       link="https://expo.dev/artifacts/eas/31z7bXZSUH1bETPYET3ags.apk" 
+        />
+
 
     </main>
   )
