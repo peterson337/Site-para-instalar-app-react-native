@@ -48,7 +48,7 @@ export default function Home() {
 
         <Div
        p="Clone do whatsapp:" 
-       link="https://expo.dev/artifacts/eas/psf8SfVCCuG5fr3nKuRYGV.apk" 
+       link="https://expo.dev/artifacts/eas/jQKVJyqSmBBKnZmxKsgUvY.apk" 
         />
 
     </main>
